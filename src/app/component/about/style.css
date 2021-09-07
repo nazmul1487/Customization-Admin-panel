@@ -1,0 +1,54 @@
+.about-grids h3.margin {
+    margin-bottom: 15px;
+}
+
+h3.margin {
+    background: #dc3545;
+}
+h3.black {
+    background: #282c34;
+}
+h3.green {
+    background: #17a2b8;
+}
+h3.grey {
+    background: #30c39e;
+}
+.about-grids h3 {
+    padding: 1.2em;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about-grids a {
+    color: #fff;
+    font-size: 16px;
+    background: #dc3545;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+a.about:hover{
+	text-decoration:none;
+    background: #17a2b8;
+}
+.icon3:hover{
+    background: #282c34;
+}
